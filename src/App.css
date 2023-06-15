@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.form__wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: burlywood;
+  padding: 40px;
+  border-radius: 50px;
+}
+
+.form__input{
+  padding: 8px;
+  border-radius: 10px;
+  border-color: aliceblue;
+  color: blueviolet;
+}
+
+.form__label{
+  padding: 6px;
+}
